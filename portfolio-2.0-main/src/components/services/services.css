@@ -1,0 +1,87 @@
+.services {
+  background-image: var(--second-gradient);
+}
+
+.swiper-wrapper {
+  margin-bottom: 52px;
+}
+
+.services__container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left; /* optional: depends on design */
+  /*text-align: center;*/
+}
+.services__card {
+  background-color: var(--container-color);
+  flex: 1 1 300px;
+  max-width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* ensures consistent height */
+  min-height: 340px; /* set based on tallest content */
+  border-radius: 16px;
+}
+
+.services__subtitle {
+  color: var(--title-color);
+  font-size: var(--tiny-font-size);
+  font-weight: 700;
+  margin-bottom: 65px;
+  display: block;
+}
+
+.services__title {
+  font-size: var(--h4-font-size);
+  margin-bottom: 15px;
+}
+
+.services__description {
+  min-height: 160px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+  width: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%);
+  height: 2px;
+  width: 100%;
+  background-color: var(--title-color);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  border: 2px solid var(--title-color);
+  background-color: var(--container-color);
+  z-index: 1;
+  position: relative;
+  opacity: 1;
+  margin: 0;
+  transition: all 0.3s var(--transition);
+}
+
+.swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 20px;
+}
+
+.swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+  width: 13px;
+  max-height:13px;
+  top: 2px;
+}
