@@ -78,7 +78,7 @@ export const cv = [
   {
     id: 1,
     title: 'Madhav Institute Of Technology & Science, Gwalior (M.P.)',
-    subtitle: 'Bachelor of Technology in internet of things (IoT) with SGPA 8.93',
+    subtitle: 'Bachelor of Technology in internet of things (IoT) with SGPA 8.87',
     date: '2022 - 2026',
     description:
       'I have strong interest in software development and IoT technologies.',
