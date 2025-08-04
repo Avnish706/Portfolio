@@ -112,7 +112,8 @@
 .home__profile {
   position: absolute;
   bottom: 0;
-  height: 700px;
+  height: 680px;
+  width: 700px;
   border-radius: 500px;
   object-fit: cover;
 }
