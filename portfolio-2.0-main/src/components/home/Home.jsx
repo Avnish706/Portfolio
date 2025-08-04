@@ -4,7 +4,7 @@ import "./home.css";
 import profileImg from "../../assets/my_Photo.jpg";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
-import CV from "../../assets/Updated_avnish_resume.pdf";
+import CV from "../../assets/Updated_Avnish_Resume.pdf";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Home = () => {
